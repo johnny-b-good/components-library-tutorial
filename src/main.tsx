@@ -4,6 +4,8 @@ import "./index.css";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <div>Hello world!</div>
+    <div className="text-4xl text-blue-500 underline uppercase my-8 text-center font-bold">
+      Hello world!
+    </div>
   </StrictMode>,
 );
