@@ -27,6 +27,18 @@ createRoot(document.getElementById("root")!).render(
         <Button variant="default">Hello world!</Button>
         <Button variant="text">Hello world!</Button>
       </div>
+
+      <div className="flex items-end justify-center gap-4">
+        <Button color="danger" variant="primary">
+          Hello world!
+        </Button>
+        <Button color="danger" variant="default">
+          Hello world!
+        </Button>
+        <Button color="danger" variant="text">
+          Hello world!
+        </Button>
+      </div>
     </div>
   </StrictMode>,
 );
